@@ -277,7 +277,7 @@
   (symbol (lib_id "power:GND") (at 114.3 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 242c9abd-a0e5-4016-8f07-184701d0dbd4)
-    (property "Reference" "#PWR085" (at 114.3 124.46 0)
+    (property "Reference" "#PWR064" (at 114.3 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 123.19 0)
@@ -289,11 +289,11 @@
     (property "Datasheet" "" (at 114.3 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54b7dc51-8716-465b-b52d-130aded2fe98))
+    (pin "1" (uuid c3998ba6-de1d-4f14-9902-62712825024e))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -302,7 +302,7 @@
   (symbol (lib_id "power:GND") (at 170.18 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e4758de-a9dc-4a4e-933f-be200d94a76f)
-    (property "Reference" "#PWR082" (at 170.18 107.95 0)
+    (property "Reference" "#PWR061" (at 170.18 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 106.68 0)
@@ -314,11 +314,11 @@
     (property "Datasheet" "" (at 170.18 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b500523e-7b79-4c6f-906a-a83af9bd66b7))
+    (pin "1" (uuid c3fe6995-b245-4249-9e89-ead0c281b84e))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -327,7 +327,7 @@
   (symbol (lib_id "power:VDD") (at 157.48 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5247ada8-f5fa-4dcf-b9e3-80d5fed13ce2)
-    (property "Reference" "#PWR079" (at 157.48 97.79 0)
+    (property "Reference" "#PWR058" (at 157.48 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 157.48 88.9 0)
@@ -339,11 +339,11 @@
     (property "Datasheet" "" (at 157.48 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20f7a98b-2188-4c74-b8c3-69f184c3267e))
+    (pin "1" (uuid 4b55b1b3-e4bb-4b8f-b8ee-e04f9082efa5))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -352,7 +352,7 @@
   (symbol (lib_id "power:GND") (at 83.82 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 595db7eb-7490-4cdc-9051-833b8460fa92)
-    (property "Reference" "#PWR083" (at 83.82 111.76 0)
+    (property "Reference" "#PWR062" (at 83.82 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 110.49 0)
@@ -364,11 +364,11 @@
     (property "Datasheet" "" (at 83.82 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4edd6fa1-77b5-43da-ae7b-d0feaadc560f))
+    (pin "1" (uuid dee1f75d-9217-4b9a-9be3-a5e506be5aba))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -377,7 +377,7 @@
   (symbol (lib_id "Device:C_Small") (at 83.82 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a7f558d-e7d1-4985-bf32-2723e01d0266)
-    (property "Reference" "C39" (at 81.28 100.33 0)
+    (property "Reference" "C26" (at 81.28 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 81.28 102.87 0)
@@ -389,12 +389,12 @@
     (property "Datasheet" "~" (at 83.82 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c990fe3-5c4a-4fd3-a0aa-8ed9e33a5a1f))
-    (pin "2" (uuid e05b611f-cfe1-4787-83e8-f6b4ffca49cd))
+    (pin "1" (uuid 07486896-35c4-43cb-86e3-c08d6bf523c7))
+    (pin "2" (uuid d9e680ab-3181-487d-9d76-ca609543a564))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "C39") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -403,7 +403,7 @@
   (symbol (lib_id "power:VDD") (at 114.3 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d226df5-feaf-4b65-8b35-27aa423f94bb)
-    (property "Reference" "#PWR077" (at 114.3 78.74 0)
+    (property "Reference" "#PWR056" (at 114.3 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 114.3 69.85 0)
@@ -415,11 +415,11 @@
     (property "Datasheet" "" (at 114.3 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd646e0e-b20c-43af-886c-32b541937341))
+    (pin "1" (uuid 7948f94f-2bc7-4999-bfe4-4ec17a3730ae))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -440,16 +440,16 @@
     (property "Datasheet" "https://www.sharpsde.com/fileadmin/products/Displays/Specs/LS012B7DH02_23Jun15_Spec_LD-27606A.pdf" (at 111.76 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e1b685bd-36de-409c-8acf-99783fb832f2))
-    (pin "10" (uuid e3f88b07-7470-4ae0-93d6-77cd734239e7))
-    (pin "2" (uuid 109c9aef-f2dc-446f-a096-c25a0f24971b))
-    (pin "3" (uuid f8154778-7cc2-48a1-b377-08e8618bbdf1))
-    (pin "4" (uuid fa894ce7-5b04-4637-a185-d052039d9aeb))
-    (pin "5" (uuid db9f3618-6f3e-4bb6-bd30-81b9283fd106))
-    (pin "6" (uuid fc65ade9-d9c0-4649-a021-671b748c6b85))
-    (pin "7" (uuid d113f161-e88e-4592-86ff-cee8ddfa5f30))
-    (pin "8" (uuid 1b3049b5-0337-4108-83ce-c1735abb9dff))
-    (pin "9" (uuid 4cbb7d03-4cd0-4b78-a44a-3aa5923ab51a))
+    (pin "1" (uuid 15ab71c8-922a-4379-83c7-5a98593fc25f))
+    (pin "10" (uuid 26263026-af64-4cf7-9c13-03dc1faee05e))
+    (pin "2" (uuid 662eed59-a53c-4e4f-bd0b-18fcfafb6f67))
+    (pin "3" (uuid 1eaf38c1-ffed-45bc-b1bf-674bb7509cac))
+    (pin "4" (uuid d9d17a40-5b2d-4fe9-90b0-2b309516e92c))
+    (pin "5" (uuid 5d8c129f-9710-454b-af43-afc1a6f07146))
+    (pin "6" (uuid c29d087e-9100-499c-9105-458b4e79c548))
+    (pin "7" (uuid a775a535-d389-4c5f-a6bc-ad17ca05d3bc))
+    (pin "8" (uuid 6afedb44-6092-4fc6-bb6c-248feb1762aa))
+    (pin "9" (uuid 0fa215e1-b1f6-4d10-8abc-373cead0d49e))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
@@ -462,7 +462,7 @@
   (symbol (lib_id "power:VDD") (at 170.18 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83ca4c5f-645c-44b8-827a-4bb9dfd6c833)
-    (property "Reference" "#PWR080" (at 170.18 97.79 0)
+    (property "Reference" "#PWR059" (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 170.18 88.9 0)
@@ -474,11 +474,11 @@
     (property "Datasheet" "" (at 170.18 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba2757f0-ebe7-433a-b0a4-7171433c3ad2))
+    (pin "1" (uuid 12dea766-0a58-4494-9006-7e912ee8e828))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -487,7 +487,7 @@
   (symbol (lib_id "power:VDD") (at 109.22 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a53ba7c-0a1d-4895-a145-1a12a58df3a7)
-    (property "Reference" "#PWR076" (at 109.22 78.74 0)
+    (property "Reference" "#PWR055" (at 109.22 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 109.22 69.85 0)
@@ -499,11 +499,11 @@
     (property "Datasheet" "" (at 109.22 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7245d3f-3a77-419e-b42f-561a8eddfd6d))
+    (pin "1" (uuid db49e55c-fd5a-4072-83b9-6ff6e0b3b068))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -512,7 +512,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a81b5b04-2783-4f96-971a-f9e629ebee6e)
-    (property "Reference" "C37" (at 160.02 96.5262 0)
+    (property "Reference" "C24" (at 160.02 96.5262 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 160.02 99.0662 0)
@@ -524,12 +524,12 @@
     (property "Datasheet" "~" (at 157.48 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c117b5ae-5725-44b3-8496-812656053210))
-    (pin "2" (uuid 55a21712-28ae-4d66-adc3-b174662131d4))
+    (pin "1" (uuid 1b713e05-0815-4edd-8086-159ba99d137e))
+    (pin "2" (uuid 21d4a4e2-ae33-45ba-b6e3-04cf08c76b18))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "C37") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -538,7 +538,7 @@
   (symbol (lib_id "power:GND") (at 157.48 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1e62bfe-c922-4f97-ad36-3e77b6216c8b)
-    (property "Reference" "#PWR081" (at 157.48 107.95 0)
+    (property "Reference" "#PWR060" (at 157.48 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 106.68 0)
@@ -550,11 +550,11 @@
     (property "Datasheet" "" (at 157.48 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4edd459-5695-4859-9081-9439bb79db15))
+    (pin "1" (uuid feb5e521-6b83-4a93-b643-e684e4f027a6))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -563,7 +563,7 @@
   (symbol (lib_id "Device:C_Small") (at 170.18 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9227f94-4526-4866-9b7f-7dea3c5728bd)
-    (property "Reference" "C38" (at 172.72 96.5262 0)
+    (property "Reference" "C25" (at 172.72 96.5262 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 172.72 99.0662 0)
@@ -575,12 +575,12 @@
     (property "Datasheet" "~" (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c116568-3086-45fe-81f4-7a3b17a89774))
-    (pin "2" (uuid 3ac5ee1f-cce3-4587-b77c-d44dea8da774))
+    (pin "1" (uuid 3ee3b4f5-9190-4433-a0f4-2fdedea41899))
+    (pin "2" (uuid a3284edb-19df-4c85-80d4-912613a0f34d))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "C38") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -589,7 +589,7 @@
   (symbol (lib_id "power:GND") (at 109.22 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c80f2981-86b5-49c4-8176-314de4dbe365)
-    (property "Reference" "#PWR084" (at 109.22 124.46 0)
+    (property "Reference" "#PWR063" (at 109.22 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 123.19 0)
@@ -601,11 +601,11 @@
     (property "Datasheet" "" (at 109.22 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc821ab1-66f4-40cc-915c-580bcbecfa83))
+    (pin "1" (uuid 0619a55f-c893-41ce-a25f-8f8631255090))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -614,7 +614,7 @@
   (symbol (lib_id "power:VDD") (at 83.82 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6de05e3-de3b-4dca-9cf5-b70c32ce7cd3)
-    (property "Reference" "#PWR078" (at 83.82 92.71 0)
+    (property "Reference" "#PWR057" (at 83.82 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 83.82 83.82 0)
@@ -626,11 +626,11 @@
     (property "Datasheet" "" (at 83.82 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 234d6221-6760-4816-9ae7-bae5f2cdae12))
+    (pin "1" (uuid f22c3861-41c1-46d0-9e66-2df1f4160b56))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/2a2ea5a3-6605-4888-bae5-df756037ea07"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )

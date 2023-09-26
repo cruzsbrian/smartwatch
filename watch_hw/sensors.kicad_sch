@@ -449,7 +449,7 @@
   (symbol (lib_id "power:VDD") (at 220.98 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 066a8f0d-4668-48c4-80e1-f19fa973b1fe)
-    (property "Reference" "#PWR061" (at 220.98 83.82 0)
+    (property "Reference" "#PWR046" (at 220.98 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 220.98 74.93 0)
@@ -461,16 +461,16 @@
     (property "Datasheet" "" (at 220.98 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6b6d000-8481-4a80-82b0-d53220c295f2))
+    (pin "1" (uuid fdaac968-529c-4ab5-8373-948b723a51f5))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -479,7 +479,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1803d7b8-59f0-46f5-adcc-931807bc2e5b)
-    (property "Reference" "C34" (at 242.57 93.9862 0)
+    (property "Reference" "C22" (at 242.57 93.9862 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 242.57 96.5262 0)
@@ -491,17 +491,17 @@
     (property "Datasheet" "~" (at 240.03 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11465d00-0b14-4b2e-bcd4-8089f6636efc))
-    (pin "2" (uuid ca2c19d1-358a-4cf4-a797-e42e3208677d))
+    (pin "1" (uuid e26c3e65-311b-4a7f-b552-10ec6b1e90c2))
+    (pin "2" (uuid 30a40686-2210-4f0d-8b69-0944ae5b681d))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "C34") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "C34") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -510,7 +510,7 @@
   (symbol (lib_id "power:VDD") (at 80.01 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 244586da-1210-4b1e-a206-7844ef4c6037)
-    (property "Reference" "#PWR062" (at 80.01 87.63 0)
+    (property "Reference" "#PWR047" (at 80.01 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 80.01 78.74 0)
@@ -522,16 +522,16 @@
     (property "Datasheet" "" (at 80.01 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54afb8c7-c3e9-432d-8e67-1c70c86d7f88))
+    (pin "1" (uuid 298ada09-6c09-4b85-97a1-3e89203f35af))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -540,7 +540,7 @@
   (symbol (lib_id "power:GND") (at 240.03 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c0b3d56-f401-4782-9e7e-aeda6c2ce2fb)
-    (property "Reference" "#PWR070" (at 240.03 105.41 0)
+    (property "Reference" "#PWR050" (at 240.03 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 104.14 0)
@@ -552,16 +552,16 @@
     (property "Datasheet" "" (at 240.03 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3fcdc65-0e39-438d-b10f-abda9acaf5ec))
+    (pin "1" (uuid 39906039-0a2c-4c44-b718-9a2ae2f6fb06))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -570,7 +570,7 @@
   (symbol (lib_id "power:VDD") (at 182.88 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e147975-f02f-492d-a188-b07ebd9c7e1e)
-    (property "Reference" "#PWR060" (at 182.88 83.82 0)
+    (property "Reference" "#PWR045" (at 182.88 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 182.88 74.93 0)
@@ -582,16 +582,16 @@
     (property "Datasheet" "" (at 182.88 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b9ac095-66d3-45d3-9bce-2ac99c6336cc))
+    (pin "1" (uuid 4940b1db-3cf3-40b8-96d2-485b9077c88e))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -600,7 +600,7 @@
   (symbol (lib_id "power:GND") (at 182.88 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d02cdf5-443a-491a-8c0d-daeee6afd2b8)
-    (property "Reference" "#PWR074" (at 182.88 116.84 0)
+    (property "Reference" "#PWR053" (at 182.88 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 115.57 0)
@@ -612,16 +612,16 @@
     (property "Datasheet" "" (at 182.88 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d235c37-d35c-43be-be4d-760402106dd9))
+    (pin "1" (uuid 03bc86c3-ef16-467f-b8d9-4bafad93ecfe))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -630,7 +630,7 @@
   (symbol (lib_id "BMA456:BMA456") (at 201.93 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 517500c7-2bea-4f7a-8988-03dfab171f7b)
-    (property "Reference" "U7" (at 201.93 74.93 0)
+    (property "Reference" "U4" (at 201.93 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BMA456" (at 201.93 77.47 0)
@@ -654,27 +654,27 @@
     (property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm" (at 201.93 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9be9d09a-f6ca-4762-ab97-8e2a3be7ec52))
-    (pin "10" (uuid 494ce2e7-ffbb-4d37-98ec-ca60332fbe3a))
-    (pin "11" (uuid 7e61d5c7-ad45-4260-a365-d1bc1d2fd6ac))
-    (pin "12" (uuid 46c798f8-1211-4e1b-bfca-f15cbcfb4db4))
-    (pin "2" (uuid 74db6f0f-9b17-4845-8c80-042b5afe1c70))
-    (pin "3" (uuid 689b93fb-0145-4e6f-ac8a-f771a30d6459))
-    (pin "4" (uuid 47d54883-ef03-4fed-b33b-0669d4416fe0))
-    (pin "5" (uuid c95bfd98-148e-47fc-9004-c4ec784a28d2))
-    (pin "6" (uuid 4befb20d-9253-41c0-8053-fafb1f82e468))
-    (pin "7" (uuid 1bf765f9-6473-4570-9771-db3f27e9b88b))
-    (pin "8" (uuid c0e0609c-349b-4238-82a6-8d27900b7604))
-    (pin "9" (uuid 95b4e88b-2a0b-4749-b6cf-1936f225448f))
+    (pin "1" (uuid 84938fdf-832f-4ac6-8d22-3289e6d7328d))
+    (pin "10" (uuid 26994b22-662e-4cec-9210-403b04ce18fb))
+    (pin "11" (uuid 977b125b-601f-42a1-a77a-3a3d707b7f57))
+    (pin "12" (uuid 621fbe4b-7c6a-46bc-98f1-4a33219f7c19))
+    (pin "2" (uuid 1b8e38e1-27d4-4271-8a58-f1d56611d81a))
+    (pin "3" (uuid f84730c8-48c8-41ea-b8f8-65239b565d82))
+    (pin "4" (uuid f8047257-6528-4408-b925-6a4f0c60cbef))
+    (pin "5" (uuid 3b917dbd-8d2b-4a9f-8812-1aca484e3c81))
+    (pin "6" (uuid f9dc2f4d-7bfd-4537-afe5-32bd77ffc4bf))
+    (pin "7" (uuid 8e8beb26-ddc1-470d-81c9-9f6b4c50ddcb))
+    (pin "8" (uuid c4c3a117-b719-4ff8-ac25-06dc60338a8c))
+    (pin "9" (uuid b4b51b96-22e9-4a3f-a961-67612e4b9fab))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "U7") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "U7") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -683,7 +683,7 @@
   (symbol (lib_id "power:VDD") (at 240.03 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bd34364-ef03-447a-887b-9a2e7455f9cd)
-    (property "Reference" "#PWR065" (at 240.03 95.25 0)
+    (property "Reference" "#PWR048" (at 240.03 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 240.03 86.36 0)
@@ -695,16 +695,16 @@
     (property "Datasheet" "" (at 240.03 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5328a420-e2c5-4b8d-a069-67d4eea229c3))
+    (pin "1" (uuid c3ecadf7-c960-4735-8042-725925e00413))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -725,13 +725,13 @@
     (property "Datasheet" "~" (at 86.36 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7aeddc9d-d190-4ef3-8614-917e333042aa))
-    (pin "2" (uuid ea88a5a2-4a8a-4751-9808-5b8a748f7fcf))
-    (pin "3" (uuid 56e014ac-3b4d-45a8-88a1-7e92d8474509))
-    (pin "4" (uuid f00627e3-c6b5-4b8b-877d-3d6fa4ce4c6d))
-    (pin "5" (uuid 01429f14-8965-4929-a16f-ba46665f5ba6))
-    (pin "6" (uuid bdb9bd5f-873c-44cc-87fa-614a485855e8))
-    (pin "7" (uuid 08f90a08-661e-4336-b2f2-721db266b358))
+    (pin "1" (uuid d3aacd5e-3cf2-4e56-9814-6d576cf203a2))
+    (pin "2" (uuid bd4bd1ed-791b-43ca-a2b0-a721ec898573))
+    (pin "3" (uuid 169b1537-78cd-4c7b-af1b-84e634442970))
+    (pin "4" (uuid 83f95a88-35c4-44df-b3ba-36d52ac3aeff))
+    (pin "5" (uuid 412657b2-2af0-49dc-ba04-0d2729a0ffba))
+    (pin "6" (uuid 06dfd82e-6a5f-456e-8527-76df866e0062))
+    (pin "7" (uuid 175d8b58-1e97-4e1d-ad44-5897212f2400))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
@@ -744,7 +744,7 @@
   (symbol (lib_id "power:GND") (at 251.46 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ef883d0-4879-40f6-8010-8533846d6241)
-    (property "Reference" "#PWR071" (at 251.46 105.41 0)
+    (property "Reference" "#PWR051" (at 251.46 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 104.14 0)
@@ -756,16 +756,16 @@
     (property "Datasheet" "" (at 251.46 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3ce76f7-1afe-4d31-ac43-a176ebc53b84))
+    (pin "1" (uuid 57bb877e-1673-4103-83fd-3dfdfcdf4fc7))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -774,7 +774,7 @@
   (symbol (lib_id "Device:C_Small") (at 251.46 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 922854fc-32fb-4b91-a0aa-b4b65ca29bb7)
-    (property "Reference" "C35" (at 254 93.9862 0)
+    (property "Reference" "C23" (at 254 93.9862 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 254 96.5262 0)
@@ -786,17 +786,17 @@
     (property "Datasheet" "~" (at 251.46 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1290f843-bdc2-4f92-827c-eb181b5b4dff))
-    (pin "2" (uuid 8906acd0-de5c-4ea6-8df0-b6040792ad7c))
+    (pin "1" (uuid 1d1bfe13-f1bf-4bfb-b288-ddac1025e5c6))
+    (pin "2" (uuid 5c46ad0b-0070-43dc-8b1a-44d1584544d8))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "C35") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "C35") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -805,7 +805,7 @@
   (symbol (lib_id "power:VDD") (at 251.46 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb7ac073-6522-4f4f-b721-8c7075c45bc7)
-    (property "Reference" "#PWR066" (at 251.46 95.25 0)
+    (property "Reference" "#PWR049" (at 251.46 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 251.46 86.36 0)
@@ -817,16 +817,16 @@
     (property "Datasheet" "" (at 251.46 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76824c33-f600-41f4-8a5c-c9778b07c61e))
+    (pin "1" (uuid f8dd8693-743b-4be7-bb83-bf4fd4c570ac))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -835,7 +835,7 @@
   (symbol (lib_id "power:GND") (at 220.98 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28482ef-8c75-4f66-b760-8a5c7dd57534)
-    (property "Reference" "#PWR075" (at 220.98 116.84 0)
+    (property "Reference" "#PWR054" (at 220.98 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 115.57 0)
@@ -847,16 +847,16 @@
     (property "Datasheet" "" (at 220.98 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cc0d64d-4c33-47c7-8e69-c42ed9a3ad2b))
+    (pin "1" (uuid 039b0e3b-a566-4edb-87fd-c5d1e94f10c2))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -865,7 +865,7 @@
   (symbol (lib_id "power:GND") (at 80.01 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef73af2e-f935-4d6d-9b0b-58cde5826d47)
-    (property "Reference" "#PWR063" (at 80.01 107.95 0)
+    (property "Reference" "#PWR052" (at 80.01 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 106.68 0)
@@ -877,16 +877,16 @@
     (property "Datasheet" "" (at 80.01 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50e63fca-9d59-46a1-aa78-073225e3efd3))
+    (pin "1" (uuid cf34eb16-fe82-4764-98d9-8b42cc50ce28))
     (instances
       (project "watch"
         (path "/7f737de8-b7e5-4967-9e9f-b541c91fc2b3/a6704839-2ecd-422a-a964-aadc4aef38b4"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "sensors"
         (path "/e32e581b-18f8-44c9-a498-a06032b1b422"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
