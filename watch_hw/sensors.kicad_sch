@@ -325,8 +325,10 @@
     (uuid a4607eab-d515-4f62-b2a4-a31b551b6796)
   )
 
+  (no_connect (at 81.28 92.71) (uuid 4e84f2cb-0a0c-475c-a97b-f1f056a27c61))
   (no_connect (at 184.15 100.33) (uuid 52eb5661-cd76-4252-8c71-1a99b2b69a29))
   (no_connect (at 184.15 102.87) (uuid 5a0b6e54-c613-416a-ac31-fed211822328))
+  (no_connect (at 81.28 90.17) (uuid a14edb5d-b6b0-4e62-a9c2-e9f18aaf3780))
 
   (wire (pts (xy 219.71 82.55) (xy 220.98 82.55))
     (stroke (width 0) (type default))
@@ -425,10 +427,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7fc0d23e-4590-48e6-83b2-0a206b3ce2d7)
   )
-  (hierarchical_label "HR_GPIO" (shape bidirectional) (at 81.28 90.17 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 92a6d690-eef3-4f59-a532-7aaa357cfeca)
-  )
   (hierarchical_label "HR_INT" (shape output) (at 81.28 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d179d1d1-008a-4f5b-a9be-26f023af3817)
@@ -440,10 +438,6 @@
   (hierarchical_label "SCL" (shape input) (at 81.28 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d9be158c-0b19-417c-a069-ebd5437d5291)
-  )
-  (hierarchical_label "HR_LDO_EN" (shape input) (at 81.28 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e845103a-f44c-4e4e-a10a-72dc35c6b39b)
   )
 
   (symbol (lib_id "power:VDD") (at 220.98 80.01 0) (unit 1)
