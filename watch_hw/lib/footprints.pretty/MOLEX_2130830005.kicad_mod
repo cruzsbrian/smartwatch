@@ -621,7 +621,7 @@
   (pad "SH2" thru_hole oval (at -4.52 3.4) (size 1.1 2.2) (drill oval 0.65 1.6) (layers "*.Cu" "*.Mask") (tstamp efb894fe-452d-4d25-9a3a-02f1e43f2f75))
   (pad "SH3" thru_hole oval (at 4.52 3.4) (size 1.1 2.2) (drill oval 0.65 1.6) (layers "*.Cu" "*.Mask") (tstamp a3123f38-5630-4775-a552-96014391f6e0))
   (pad "SH4" thru_hole oval (at 4.52 0.4) (size 0.8 1.6) (drill oval 0.6 1.2) (layers "*.Cu") (tstamp 42ee17aa-6a52-4615-a948-aa7ff4302bc4))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 69ce6d0f-3723-4be2-8e34-a46fc91b30ea) (hatch full 0.508)
+  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 69ce6d0f-3723-4be2-8e34-a46fc91b30ea) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01) (filled_areas_thickness no)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))

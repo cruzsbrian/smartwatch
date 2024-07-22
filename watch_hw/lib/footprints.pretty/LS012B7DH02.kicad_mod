@@ -1,0 +1,47 @@
+(footprint "LS012B7DH02" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp d119cba7-7898-4b4c-827b-d76c0263d22b)
+  )
+  (fp_text value "LS012B7DH02" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1f1d3272-30dd-4edc-ae07-241651accb45)
+  )
+  (fp_line (start -17.889964 -8.591529) (end -17.889964 7.891961)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp 97b6e048-45c6-4661-9484-6c6bbf7eb08e))
+  (fp_line (start -17.889964 -8.591529) (end -8.591529 -17.889964)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp 470de12a-2b85-4e97-90ef-fc829eb44d7c))
+  (fp_line (start -17.889964 7.891961) (end -7.141963 18.639963)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp a3547b16-2526-41c4-90b0-917c979bcfd8))
+  (fp_line (start -8.591529 -17.889964) (end 8.591529 -17.889964)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp 46dd43a0-a478-4667-beb0-986c6e9217c7))
+  (fp_line (start -7.141963 18.639963) (end 7.141963 18.639963)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp 974ba6a1-c2f5-4ed3-9312-3178d6befde7))
+  (fp_line (start 7.141963 18.639963) (end 17.889964 7.891961)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp cbf348d2-7b3b-418e-8fc8-81bead0520a6))
+  (fp_line (start 17.889964 -8.591529) (end 8.591529 -17.889964)
+    (stroke (width 0.1) (type solid)) (layer "User.3") (tstamp 6f52c562-5055-42fc-8ed7-c3a6a5465497))
+  (fp_line (start 17.889964 -8.591529) (end 17.889964 7.891961)
+    (stroke (width 0.003937) (type solid)) (layer "User.3") (tstamp 47728a55-bd47-4bcf-a14d-4aa836ed394a))
+  (fp_circle (center 0 0) (end 15.23997 0)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "User.3") (tstamp f427b47d-e234-46fe-acd8-5f3fbfd8ce77))
+  (group "" (id b6c5d037-8c76-4cb6-a32b-8926c32a71c4)
+    (members
+      46dd43a0-a478-4667-beb0-986c6e9217c7
+      470de12a-2b85-4e97-90ef-fc829eb44d7c
+      47728a55-bd47-4bcf-a14d-4aa836ed394a
+      6f52c562-5055-42fc-8ed7-c3a6a5465497
+      974ba6a1-c2f5-4ed3-9312-3178d6befde7
+      97b6e048-45c6-4661-9484-6c6bbf7eb08e
+      a3547b16-2526-41c4-90b0-917c979bcfd8
+      cbf348d2-7b3b-418e-8fc8-81bead0520a6
+      f427b47d-e234-46fe-acd8-5f3fbfd8ce77
+    )
+  )
+  (model "${KIPRJMOD}/lib/3d/LS012B7DH02.step"
+    (offset (xyz 0 0 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
