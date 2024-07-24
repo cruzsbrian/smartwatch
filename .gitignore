@@ -1,5 +1,5 @@
 # KiCad backups
-watch_hw/watch-backups/*
+*-backups/
 *.kicad_sch-bak
 *.kicad_pcb-bak
 
@@ -31,3 +31,5 @@ _autosave-*
 .local
 fp-info-cache
 *.kicad_prl
+
+**/gerbers/*

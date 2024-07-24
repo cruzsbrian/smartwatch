@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "watch")(type "KiCad")(uri "C:/Users/cruzs/Documents/projects/smartwatch/watch_hw/lib/footprints.pretty")(options "")(descr ""))
+)
