@@ -2601,6 +2601,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 83.82) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd8693c-f243-4a95-addc-b5abff1f6a0c")
+	)
+	(wire
+		(pts
 			(xy 119.38 132.08) (xy 119.38 134.62)
 		)
 		(stroke
@@ -2788,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "81597dce-ad0d-4631-9047-332183a6cd00")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853e31ba-9653-4ad6-94a0-eeb25d522745")
 	)
 	(wire
 		(pts
@@ -3332,6 +3352,17 @@
 		)
 		(uuid "484ca24d-8ab4-450a-b5ed-a1b39572c7a0")
 	)
+	(hierarchical_label "USB_D_N"
+		(shape bidirectional)
+		(at 158.75 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ad588c1-e8bb-438f-bf8a-530501208b2d")
+	)
 	(hierarchical_label "BTN1"
 		(shape input)
 		(at 261.62 132.08 0)
@@ -3397,6 +3428,17 @@
 			(justify left)
 		)
 		(uuid "c68597d7-ff7f-4137-b947-d60977b85936")
+	)
+	(hierarchical_label "USB_D_P"
+		(shape bidirectional)
+		(at 158.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9609d16-e7ae-4662-956b-7fdac63ac068")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -6862,6 +6904,7 @@
 		)
 		(pin "38"
 			(uuid "83f13779-4b8e-43ec-8764-e6ca888a0e54")
+			(alternate "USB_DP")
 		)
 		(pin "49"
 			(uuid "1d247e9b-cfab-4e8e-90c0-da02f2f81792")
@@ -6874,6 +6917,7 @@
 		)
 		(pin "37"
 			(uuid "18ea88c8-16e4-4ba5-b760-5e25d2cfac5d")
+			(alternate "USB_DM")
 		)
 		(pin "8"
 			(uuid "80b5d34c-621e-41df-8589-5f66bf4fbbe1")

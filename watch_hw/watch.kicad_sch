@@ -2201,7 +2201,7 @@
 				(justify left)
 			)
 		)
-		(pin "BTN0" output
+		(pin "BTN0" input
 			(at 66.04 83.82 180)
 			(uuid "fa879fa9-03dc-4bb6-8174-5e404f343413")
 			(effects
@@ -2211,7 +2211,7 @@
 				(justify left)
 			)
 		)
-		(pin "BTN1" output
+		(pin "BTN1" input
 			(at 66.04 86.36 180)
 			(uuid "7b1c28cb-4048-4490-8b70-a1e557afbb22")
 			(effects
