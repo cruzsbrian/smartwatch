@@ -1940,6 +1940,34 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Charge current limit = 300mA\nR_ICHG = 625 / ICHG - 1562.5"
+		(exclude_from_sim no)
+		(at 146.304 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26e89ac1-61a8-43b0-93e4-0e4b0c54af7e")
+	)
+	(text "VBUS current limit = 500mA\nISET = VSYS\nD- = AVSS\nD+ = NC"
+		(exclude_from_sim no)
+		(at 157.988 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a011c826-3f25-44e9-bdb4-6e12e4d685cc")
+	)
+	(junction
+		(at 185.42 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0418f6eb-70bb-4268-acf8-4449f8a2820d")
+	)
 	(junction
 		(at 242.57 73.66)
 		(diameter 0)
@@ -2013,10 +2041,14 @@
 		(uuid "eaa4d30c-ab8b-408c-b23e-d9e8efca9e22")
 	)
 	(junction
-		(at 171.45 96.52)
+		(at 166.37 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ef6ef5-e3e1-4575-897a-3dd0464e00c1")
+	)
+	(no_connect
+		(at 186.69 78.74)
+		(uuid "eabbb843-f430-4746-bbb8-1e98dc30f08f")
 	)
 	(wire
 		(pts
@@ -2037,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "0d2012a7-72e3-4590-a4da-ec1973987801")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ba574f-57ec-449a-8234-e87889bd2fdd")
 	)
 	(wire
 		(pts
@@ -2090,6 +2132,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 93.98) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b37553-d75a-4bd4-bb66-dbf76f7aa98e")
+	)
+	(wire
+		(pts
 			(xy 60.96 85.09) (xy 60.96 87.63)
 		)
 		(stroke
@@ -2120,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 171.45 100.33)
+			(xy 166.37 96.52) (xy 166.37 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2260,6 +2312,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db08c95-f44f-48b3-965f-5a278c011622")
+	)
+	(wire
+		(pts
 			(xy 59.69 82.55) (xy 62.23 82.55)
 		)
 		(stroke
@@ -2320,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 172.72 96.52)
+			(xy 166.37 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2340,6 +2402,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ea36c4-4b92-420d-a190-aa5c7e2b45b8")
+	)
+	(wire
+		(pts
 			(xy 104.14 90.17) (xy 102.87 90.17)
 		)
 		(stroke
@@ -2350,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 186.69 96.52)
+			(xy 172.72 96.52) (xy 186.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2360,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 171.45 96.52)
+			(xy 166.37 86.36) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 86.36) (xy 171.45 86.36)
+			(xy 167.64 86.36) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 186.69 86.36)
+			(xy 172.72 86.36) (xy 186.69 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2661,7 @@
 		(uuid "1b5a5af1-0229-4b20-9b03-5274a63e8488")
 	)
 	(label "VSYS"
-		(at 186.69 91.44 180)
+		(at 181.61 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,7 +2681,7 @@
 		(uuid "4da1685d-b6a9-407e-a2c6-32dd071900cb")
 	)
 	(label "VSYS"
-		(at 186.69 93.98 180)
+		(at 181.61 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2702,28 +2774,6 @@
 			(justify left)
 		)
 		(uuid "c8c21a63-dedb-4b55-8303-2f40a72457f6")
-	)
-	(hierarchical_label "USB_D_P"
-		(shape input)
-		(at 186.69 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7ed2057-c00b-493d-9f8f-42fd9efd68fb")
-	)
-	(hierarchical_label "USB_D_N"
-		(shape input)
-		(at 186.69 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d853cfb7-7429-43cd-bbfe-7c30122afa1a")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -3195,7 +3245,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 171.45 100.33 0)
+		(at 166.37 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3204,7 +3254,7 @@
 		(fields_autoplaced yes)
 		(uuid "36b204ed-a420-4c16-b28f-17206fd29555")
 		(property "Reference" "#PWR042"
-			(at 171.45 106.68 0)
+			(at 166.37 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 105.41 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://infocenter.nordicsemi.com/pdf/nPM1100_PS_v1.3.pdf"
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_npm1100/page/nPM1100_PS_v1.5.pdf"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -4237,7 +4287,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 175.26 86.36 90)
+		(at 170.18 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4245,7 +4295,7 @@
 		(dnp no)
 		(uuid "abbaae0d-9a42-45d9-9629-83fdffe86a65")
 		(property "Reference" "R5"
-			(at 173.99 88.9 90)
+			(at 168.91 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4303,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 177.8 88.9 90)
+			(at 172.72 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4311,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 175.26 86.36 0)
+			(at 170.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 86.36 0)
+			(at 170.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 86.36 0)
+			(at 170.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 175.26 96.52 90)
+		(at 170.18 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4379,7 +4429,7 @@
 		(dnp no)
 		(uuid "bd1ac176-e43b-47c8-9627-94cdc8837e26")
 		(property "Reference" "R6"
-			(at 173.99 99.06 90)
+			(at 168.91 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4437,7 @@
 			)
 		)
 		(property "Value" "560R"
-			(at 179.07 99.06 90)
+			(at 173.99 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4445,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 175.26 96.52 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 96.52 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4463,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 96.52 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
