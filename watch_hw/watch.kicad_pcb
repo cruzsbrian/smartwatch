@@ -5355,7 +5355,7 @@
 			(uuid "3ee82744-ad2d-47a8-8f41-bd35c178868e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5621,7 +5621,7 @@
 			(uuid "9f7abb7d-2400-4f6e-8014-da0c3b1d45b2")
 		)
 		(embedded_fonts no)
-		(model "/home/brian/Documents/projects/smartwatch/watch_hw/lib/3d/21-0168_T8223_MXM.step"
+		(model "/home/brian/Projects/smartwatch/watch_hw/lib/3d/21-0168_T8223_MXM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9218,6 +9218,17 @@
 			(uuid "41acbd8c-ce87-4a1a-92e6-b2df6ddb0b4b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d/ayf531035-closed.step"
+			(offset
+				(xyz 0 1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
@@ -10082,7 +10093,7 @@
 			(uuid "f5e12dc7-5edb-43b0-b04d-3fcdbc64295d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
