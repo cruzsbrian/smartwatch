@@ -1781,6 +1781,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aac579df-d0b3-439e-9b6d-399aaaaa7841")
 		)
@@ -1910,6 +1919,15 @@
 		)
 		(property "Description" ""
 			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4944967"
+			(at 198.12 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2155,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "89abee6c-e889-4223-a6bd-caf170d9955e")
 		(property "Reference" "TP6"
 			(at 36.068 85.852 0)
@@ -2252,6 +2270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4944967"
+			(at 223.52 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e275177c-720f-4b31-a3bc-f167351373f8")
 		)
@@ -2274,7 +2301,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c89140f4-f8d3-400d-9af9-c7c1e72fbb9f")
 		(property "Reference" "TP5"
 			(at 29.718 85.852 0)
@@ -2381,6 +2408,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -2515,6 +2551,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22359766"
 			(at 187.96 69.85 0)
 			(effects
 				(font

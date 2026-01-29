@@ -1602,7 +1602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 241.3 78.7462 0)
 			(effects
 				(font
@@ -1630,6 +1630,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -2101,6 +2110,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C189518"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84938fdf-832f-4ac6-8d22-3289e6d7328d")
 		)
@@ -2199,6 +2217,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 134.62 80.01 0)
 			(effects
 				(font
@@ -2517,7 +2544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 252.73 78.7462 0)
 			(effects
 				(font
@@ -2545,6 +2572,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 250.19 77.47 0)
 			(effects
 				(font
@@ -2636,6 +2672,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3178309"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2883,6 +2928,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "471390c5-0afa-4d88-ba40-0fb5a2619946")
 		)
@@ -3017,6 +3071,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 101.6 107.95 0)
 			(effects
 				(font

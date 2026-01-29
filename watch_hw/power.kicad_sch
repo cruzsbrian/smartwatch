@@ -1940,7 +1940,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Charge current limit = 300mA\nR_ICHG = 625 / ICHG - 1562.5"
+	(text "Charge current limit = ~280mA\nR_ICHG = 625 / ICHG - 1562.5"
 		(exclude_from_sim no)
 		(at 146.304 111.506 0)
 		(effects
@@ -2914,7 +2914,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b702887-6b08-487b-afea-694b6f1af982")
 		(property "Reference" "BT1"
@@ -2984,7 +2984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bd121bc-4a22-4f83-9037-7163812b4990")
 		(property "Reference" "TP4"
@@ -3636,6 +3636,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5816773"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "962adee8-0dcb-4f7d-b1d8-bb64ceb6cc6c")
 		)
@@ -3794,7 +3803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "643abb6e-1228-427b-bbac-826a352da581")
 		(property "Reference" "TP1"
@@ -3977,6 +3986,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 238.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d49132ec-1fd4-44b4-8e1d-5a57c2ea315a")
 		)
@@ -4039,6 +4057,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 248.92 80.01 0)
 			(effects
 				(font
@@ -4114,6 +4141,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2682616"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb24a074-b70e-409b-ad8c-deda75a8612b")
 		)
@@ -4157,7 +4193,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8d31aed1-e2ac-41fd-a93a-8019cde332ec")
 		(property "Reference" "TP2"
@@ -4337,6 +4373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c4c60bf-c67c-4473-9ee6-bd2c98e731f9")
 		)
@@ -4436,7 +4481,7 @@
 				)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "680R"
 			(at 173.99 99.06 90)
 			(effects
 				(font
@@ -4464,6 +4509,15 @@
 		)
 		(property "Description" ""
 			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25130"
+			(at 170.18 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,6 +4661,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab41edb5-9169-4353-8e67-3d05d946b46d")
 		)
@@ -4707,7 +4770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 52.07 90.1762 0)
 			(effects
 				(font
@@ -4743,6 +4806,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6825fd0b-c2e0-437e-9ac2-0d363a2fa83c")
 		)
@@ -4765,7 +4837,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f34d3dc6-284a-4415-a7bf-6953c1bb4b82")
 		(property "Reference" "TP3"

@@ -3771,6 +3771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19666"
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "107f4e96-0898-46d6-9d8b-ff1ebf36e992")
 		)
@@ -3899,6 +3908,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26409"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -4043,6 +4061,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3916029b-5826-4523-b0e8-34949749da8e")
 		)
@@ -4113,6 +4140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc9b494f-d2eb-4fdc-9806-dc04ada5f968")
 		)
@@ -4172,6 +4208,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C891748"
 			(at 241.3 135.89 0)
 			(effects
 				(font
@@ -4448,6 +4493,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57a05524-9a22-4eee-980c-8a170b62bb95")
 		)
@@ -4716,6 +4770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11d4485a-8bab-426e-b877-01db93e793e5")
 		)
@@ -4778,6 +4841,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 127 158.75 0)
 			(effects
 				(font
@@ -5120,6 +5192,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C32949"
+			(at 236.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48196614-71b1-48c7-afaf-dbbb23c19695")
 		)
@@ -5245,6 +5326,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C843260"
 			(at 241.3 110.49 0)
 			(effects
 				(font
@@ -5535,6 +5625,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 246.38 139.7 0)
 			(effects
 				(font
@@ -5943,6 +6042,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd665ee7-8e6c-496f-bf64-ec0bc1b261e9")
 		)
@@ -6167,6 +6275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3a13d31-cbad-4ed3-a5fe-3da7d258136e")
 		)
@@ -6229,6 +6346,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 158.75 158.75 0)
 			(effects
 				(font
@@ -6373,6 +6499,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "919705f0-cf18-4c1e-8a08-86abd1861bee")
 		)
@@ -6501,6 +6636,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 80.01 87.63 0)
 			(effects
 				(font
@@ -6711,6 +6855,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19666"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de6f2221-b9fc-426a-810e-8eb70079121e")
 		)
@@ -6773,6 +6926,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
 			(at 109.22 158.75 0)
 			(effects
 				(font
@@ -6983,6 +7145,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2eff3b0-6668-49b2-9d06-c0830d3beddc")
 		)
@@ -7178,6 +7349,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 256KB RAM, 64 MHz, 1.71-3.6V, 30 GPIO, UFQFPN48"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C404023"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -7597,6 +7777,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 96.52 158.75 0)
 			(effects
 				(font
