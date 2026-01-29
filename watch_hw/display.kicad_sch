@@ -1134,7 +1134,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5591388"
+		(property "LCSC" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AYF531035A"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -1378,6 +1396,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b713e05-0815-4edd-8086-159ba99d137e")
 		)
@@ -1515,6 +1551,24 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 170.18 97.79 0)
 			(effects
 				(font

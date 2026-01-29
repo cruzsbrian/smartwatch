@@ -1647,6 +1647,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e26c3e65-311b-4a7f-b552-10ec6b1e90c2")
 		)
@@ -2119,6 +2137,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Bosch"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BMA456"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84938fdf-832f-4ac6-8d22-3289e6d7328d")
 		)
@@ -2226,6 +2262,24 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 134.62 80.01 0)
 			(effects
 				(font
@@ -2589,6 +2643,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d1bfe13-f1bf-4bfb-b288-ddac1025e5c6")
 		)
@@ -2676,6 +2748,15 @@
 			)
 		)
 		(property "LCSC" "C3178309"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MAXM86161EFD+T"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -2937,6 +3018,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "471390c5-0afa-4d88-ba40-0fb5a2619946")
 		)
@@ -3080,6 +3179,24 @@
 			)
 		)
 		(property "LCSC" "C15850"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21A106KAYNNNE"
 			(at 101.6 107.95 0)
 			(effects
 				(font

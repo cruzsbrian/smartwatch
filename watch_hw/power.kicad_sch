@@ -3645,6 +3645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "NPM1100-QDAA-R"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "962adee8-0dcb-4f7d-b1d8-bb64ceb6cc6c")
 		)
@@ -3774,6 +3783,33 @@
 		)
 		(property "Description" ""
 			(at 219.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C341781"
+			(at 219.71 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 219.71 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQM21PN2R2MGHL"
+			(at 219.71 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,6 +4031,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 238.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21A106KAYNNNE"
+			(at 238.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d49132ec-1fd4-44b4-8e1d-5a57c2ea315a")
 		)
@@ -4074,6 +4128,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21A106KAYNNNE"
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd7682a2-08bc-4873-955d-ac7b9aee8e44")
 		)
@@ -4142,6 +4214,24 @@
 			)
 		)
 		(property "LCSC" "C2682616"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Maxim Integrated"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MAX17048G+T10"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -4382,6 +4472,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c4c60bf-c67c-4473-9ee6-bd2c98e731f9")
 		)
@@ -4517,6 +4625,24 @@
 			)
 		)
 		(property "LCSC" "C25130"
+			(at 170.18 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 170.18 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF6800TCE"
 			(at 170.18 96.52 90)
 			(effects
 				(font
@@ -4670,6 +4796,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21A106KAYNNNE"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab41edb5-9169-4353-8e67-3d05d946b46d")
 		)
@@ -4807,6 +4951,24 @@
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
 			(at 49.53 88.9 0)
 			(effects
 				(font

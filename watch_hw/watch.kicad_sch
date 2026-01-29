@@ -1790,6 +1790,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aac579df-d0b3-439e-9b6d-399aaaaa7841")
 		)
@@ -1927,6 +1945,24 @@
 			)
 		)
 		(property "LCSC" "C4944967"
+			(at 198.12 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 198.12 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TL6340AF160Q"
 			(at 198.12 128.27 90)
 			(effects
 				(font
@@ -2279,6 +2315,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "E-Switch"
+			(at 223.52 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TL6340AF160Q"
+			(at 223.52 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e275177c-720f-4b31-a3bc-f167351373f8")
 		)
@@ -2425,6 +2479,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22cd8c19-dc20-4970-89d3-25a217495ed7")
 		)
@@ -2524,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "UJ2-MIBH-4-SMT-TR-67"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -2560,6 +2632,24 @@
 			)
 		)
 		(property "LCSC" "C22359766"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CUI"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "UJ2-MIBH-4-SMT-TR-67"
 			(at 187.96 69.85 0)
 			(effects
 				(font
