@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C15,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,-3.9,0,-90,bottom
+C16,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1.5,-4.8,180,bottom
+C17,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,4.439454,-0.587891,-90,bottom
+U5,MAXM86161EFD+T,MAXM86161EFDT,0,0,180,bottom
